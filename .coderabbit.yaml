@@ -1,0 +1,42 @@
+# CodeRabbit Configuration File
+# For more information, visit: https://docs.coderabbit.ai/guides/configure-coderabbit
+
+# Language settings
+language: en-US
+
+# Early access features
+early_access: false
+
+# Review settings
+reviews:
+  # Enable automatic code reviews on pull requests
+  auto_review:
+    enabled: true
+
+  # Disable the review status message that appears on PRs
+  # This suppresses the "Bot user detected" message
+  review_status: false
+
+  # Request changes workflow - when CodeRabbit should request changes
+  request_changes_workflow: false
+
+  # Enable high level summary
+  high_level_summary: true
+
+  # Poem generation (fun feature)
+  poem: true
+
+  # Tools to enable during reviews
+  tools:
+    github-checks:
+      enabled: true
+      # Timeout in duration format (e.g., 5m for 5 minutes, 300s for 300 seconds)
+      timeout: 5m
+
+# Chat settings
+chat:
+  # Enable auto-reply in PR conversations
+  auto_reply: true
+
+# Tone of the reviews
+tone_instructions: 'Be concise and constructive. Focus on important issues.'
