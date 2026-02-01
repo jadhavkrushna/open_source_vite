@@ -30,6 +30,7 @@ reviews:
   tools:
     github-checks:
       enabled: true
+      # Timeout in duration format (e.g., 5m for 5 minutes, 300s for 300 seconds)
       timeout: 5m
 
 # Chat settings
